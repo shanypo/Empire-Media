@@ -1,0 +1,7 @@
+.bitcoin-chart {
+    width: 1300px;
+
+    @include for-narrow-layout {
+        width: 300px;
+    }
+}

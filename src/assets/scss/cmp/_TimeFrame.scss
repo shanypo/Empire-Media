@@ -1,0 +1,9 @@
+.time-to-show {
+    gap: 15px;
+    padding-inline-start: 15px;
+    margin-bottom: 10px;
+
+    .active {
+        text-decoration: underline;
+    }
+}
