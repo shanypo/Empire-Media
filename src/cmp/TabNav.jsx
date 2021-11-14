@@ -5,7 +5,7 @@ export function TabNav() {
     <div className="tab-nav">
       <NavLink
         className={({ isActive }) => (isActive ? " active" : "")}
-        to="/overview"
+        to="/"
       >
         Overview
       </NavLink>

@@ -16,7 +16,6 @@ export const AppHeader = () => {
 
     ws.onmessage = function incoming(data) {
       const newdata = JSON.parse(data.data);
-      console.log(newdata["cc-btc-usd-cccagg"]);
       setData(newdata["cc-btc-usd-cccagg"]);
     };
     return () => {

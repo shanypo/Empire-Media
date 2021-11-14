@@ -14,7 +14,7 @@ function App() {
         <TimeFrame />
         <Routes>
           <Route exact path="/history" element={<History />} />
-          <Route exact path="/overview" element={<Overview />} />
+          <Route exact path="/" element={<Overview />} />
         </Routes>
       </main>
     </Router>
