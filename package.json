@@ -1,5 +1,5 @@
 {
-  "name": "empire-media",
+  "name": "tipranks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,5 +46,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://shanypo.github.io/Empire-Media"
+  "homepage": "https://shanypo.github.io/TipRanks"
 }

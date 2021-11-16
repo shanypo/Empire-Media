@@ -1,12 +1,14 @@
 .app-header {
-    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 16%);
+    box-shadow: 0px 1px 2px 0px black;
     padding: 16px;
 
-    .logo {
-        gap: 10px;
+    img {
+        max-width: 200px;
     }
 
-    .change-data {
-        gap: 10px;
+    @include for-mobile-layout {
+        img {
+            max-width: 100px;
+        }
     }
 }

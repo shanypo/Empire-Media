@@ -1,24 +1,15 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import { AppHeader } from "./cmp/AppHeader";
-import { TabNav } from "./cmp/TabNav";
-import { TimeFrame } from "./cmp/TimeFrame";
-import { History } from "./pages/History";
-import { Overview } from "./pages/Overview";
+import { AppHeader } from './cmp/AppHeader'
+import { Home } from './pages/Home'
 
-function App() {
+function App () {
   return (
-    <Router>
+    <div>
       <AppHeader />
-      <main>
-        <TabNav />
-        <TimeFrame />
-        <Routes>
-          <Route exact path="/history" element={<History />} />
-          <Route exact path="/" element={<Overview />} />
-        </Routes>
+      <main className='main-layout grid'>
+        <Home />
       </main>
-    </Router>
-  );
+    </div>
+  )
 }
 
-export default App;
+export default App

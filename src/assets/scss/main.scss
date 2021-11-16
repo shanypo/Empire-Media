@@ -2,12 +2,12 @@
 @import './basics/base';
 @import './basics/helpers';
 @import './setup/mixin.scss';
+@import './basics/layout.scss';
 
-// cmp
+//pages
+@import './pages/Home';
+
+//cmp
+
+@import './cmp/StockPreview';
 @import './cmp/AppHeader';
-@import './cmp/TabNav';
-@import './cmp/TimeFrame';
-
-// pages
-@import './pages/History';
-@import './pages/Overview';
